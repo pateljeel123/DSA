@@ -15,7 +15,7 @@ int main(){
     while(a<=n){
         
         cout << a << endl;
-        a++;
+        a--;
     }
     
     return 0;
