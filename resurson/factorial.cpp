@@ -1,13 +1,9 @@
 #include <iostream>
 using namespace std;
-
-
 int factorial(int n) {
-	int vlaue;
-	if(n==0)
-	{
-		return 1 ;
-	} 
+int vlaue;
+	if(n==0){
+		return 1 ;} 
     return n * factorial(n - 1);
 }
 
